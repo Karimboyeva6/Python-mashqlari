@@ -1,0 +1,33 @@
+#dastur1
+son = int(input("Son kiriting:"))
+kvadrat = son ** 2
+kub = son ** 3
+print(kvadrat)
+print(kub)
+Konsol natijasi:
+Son kiriting:7
+49
+343
+
+✅ Dastur muvaffaqiyatli tugadi.
+#dastur2
+yosh = int(input("Yoshingiz nechada:"))
+tugilgan_yil = 2026 - yosh
+print(f"szning tugilgan yilingiz{tugilgan_yil}da")
+Yoshingiz nechada:21
+szning yilingiz 2005
+
+✅ Dastur muvaffaqiyatli tugadi.
+#dastur3
+a = int(input("son kiriting:"))
+b = int(input("son kiriting:"))
+yigindi = a + b
+ayirma = a - b
+kopaytma = a * b
+bolinma = a / b
+print(f"sonning yigindisi {yigindi}ga teng,ayirma{ayirma}ga teng,{kopaytma}kopatmasi,bolinmasi{bolinma}ga teng")
+son kiriting:5
+son kiriting:4
+sonning yigindisi 9ga teng,ayirma1ga teng,20kopatmasi,bolinmasi1.25ga teng
+
+✅ Dastur muvaffaqiyatli tugadi.
