@@ -1,0 +1,14 @@
+ism = input("Ismingizni kiriting: ")
+yosh = input("Yoshingiz nechada: ")
+joy = input("Qayerda tugʻilgansiz: ")
+
+with open("malumot.txt", "a") as f:
+    f.write(ism + "\n")
+    f.write(yosh + "\n")
+    f.write(joy + "\n")
+
+# Natija:
+# Foydalanuvchidan ism, yosh va tugʻilgan joyi soʻraldi.
+# Kiritilgan barcha maʼlumotlar malumot.txt fayliga alohida qatorlarda yozildi.
+# Fayl append ("a") rejimida ochilgani sababli dastur qayta ishga tushirilganda
+# yangi maʼlumotlar eski maʼlumotlar oʻchirilmasdan fayl oxiriga qoʻshib borildi.
